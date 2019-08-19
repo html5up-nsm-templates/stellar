@@ -1,0 +1,8 @@
+<!-- Nav -->
+	<nav id="nav">
+		<ul>
+			<li><a href="@pathto(index)">Home</a></li>
+			<li><a href="@pathto(generic)">Generic</a></li>
+			<li><a href="@pathto(elements)">Elements</a></li>
+		</ul>
+	</nav>
