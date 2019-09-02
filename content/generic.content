@@ -4,7 +4,7 @@
 		<p>Ipsum dolor sit amet nullam</p>
 	</header>
 
-@input(template/menu.content)
+@input(template/menu.content)<br>
 
 <!-- Main -->
 	<div id="main">
