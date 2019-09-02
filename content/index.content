@@ -12,18 +12,6 @@
 	<div id="main">
 
 		<!-- Introduction -->
-			<section id="intro" class="main special">
-				<!-- Nav -->
-				<center>
-					<nav id="nav2">
-						<a href="#intro">Introduction</a>
-						<a href="#first">First Section</a>
-						<a href="#second">Second Section</a>
-						<a href="#cta">Get Started</a>
-					</nav>
-				</center>
-			</section>
-
 			<section id="intro" class="main">
 
 				<div class="spotlight">
