@@ -3218,7 +3218,7 @@ input, select, textarea {
 		background-color: #ffffff;
 		color: #636363;
 		position: absolute;
-		width: 64em;
+		width: 100%;
 		max-width: calc(100% - 4em);
 		padding: 1em;
 		background-color: #f7f7f7;
@@ -3236,8 +3236,8 @@ input, select, textarea {
 		background-color: #ffffff;
 		color: #636363;
 		position: relative;
-		width: 64em;
-		max-width: calc(70% - 4em);
+		width: 100%;
+		max-width: calc(100% - 4em);
 		padding: 1em;
 		background-color: #f7f7f7;
 		border-top-left-radius: 0.25em;
@@ -3369,10 +3369,11 @@ input, select, textarea {
 					font-size: 0.9em;
 				}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 499px) {
 
 			#nav {
-				display: none;
+				width:100%;
+				max-width: 100% !important;
 			}
 
 				#nav + #main {
@@ -3813,7 +3814,7 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper {
-		width: 64em;
+		width: 100%;
 		max-width: calc(100% - 4em);
 		margin: 0 auto;
 	}
