@@ -1,6 +1,6 @@
 <!-- Header -->
 	<header id="header" class="alt">
-		<span class="logo"><img src="@pathtofile(site/images/logo.svg)" alt="" /></span>
+		<span class="logo"><img src="@pathtofile($[output-dir]/images/logo.svg)" alt="" /></span>
 		<h1>Stellar</h1>
 		<p>Just another free, fully responsive site template<br />
 		built by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a>.</p>
@@ -26,7 +26,7 @@
 							<li><a href="generic.html" class="button">Learn More</a></li>
 						</ul>
 					</div>
-					<span class="image"><img src="@pathtofile(site/images/pic01.jpg)" alt="" /></span>
+					<span class="image"><img src="@pathtofile($[output-dir]/images/pic01.jpg)" alt="" /></span>
 				</div>
 			</section>
 

@@ -1,9 +1,9 @@
 <title>Stellar by HTML5 UP</title>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-<link rel="stylesheet" href="@pathtofile(site/assets/css/main.css)" />
-<noscript><link rel="stylesheet" href="@pathtofile(site/assets/css/noscript.css)" /></noscript>
-<link rel="stylesheet" href="@pathtofile(site/assets/css/pre.css)" />
+<link rel="stylesheet" href="@pathtofile($[output-dir]/assets/css/main.css)" />
+<noscript><link rel="stylesheet" href="@pathtofile($[output-dir]/assets/css/noscript.css)" /></noscript>
+<link rel="stylesheet" href="@pathtofile($[output-dir]/assets/css/pre.css)" />
 
 <!-- uses google-code-prettify for syntax highlighting 
 	 see https://github.com/google/code-prettify for more info -->
